@@ -26,7 +26,7 @@ component XT30_Male_Vertical:
     mpn = "C99101"
     designator_prefix = "J"
 
-component XT30PW_Female_Right_Angle:
+component XT30_Female_Right_Angle:
     signal gnd ~ pin 1
     signal vin ~ pin 2
     power = new Power
@@ -38,7 +38,7 @@ component XT30PW_Female_Right_Angle:
     lcsc_id = "C2913282"
     mpn = "C2913282"
 
-component XT30PW_Female_Vertical:
+component XT30_Female_Vertical:
     signal gnd ~ pin 2
     signal vin ~ pin 1
     power = new Power
