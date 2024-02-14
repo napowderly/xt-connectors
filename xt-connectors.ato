@@ -2,6 +2,7 @@
 import Power from "generics/interfaces.ato"
 
 component XT30_Male_Right_Angle:
+    """Male XT30 connector with right angle pins. This side would go on the device typically"""
     signal gnd ~ pin 1
     signal vin ~ pin 2
     power = new Power
@@ -12,8 +13,9 @@ component XT30_Male_Right_Angle:
     lcsc_id = "C431092"
     mpn = "C431092"
     designator_prefix = "J"
- 
+
 component XT30_Male_Vertical:
+    """Male XT30 connector with vertical pins. This side would go on the device typically"""
     signal gnd ~ pin 1
     signal vin ~ pin 2
     power = new Power
@@ -27,6 +29,7 @@ component XT30_Male_Vertical:
     designator_prefix = "J"
 
 component XT30_Female_Right_Angle:
+    """Female XT30 connector with right angle pins. This side would go on the battery typically"""
     signal gnd ~ pin 1
     signal vin ~ pin 2
     power = new Power
@@ -39,6 +42,7 @@ component XT30_Female_Right_Angle:
     mpn = "C2913282"
 
 component XT30_Female_Vertical:
+    """Female XT30 connector with vertical pins. This side would go on the battery typically"""
     signal gnd ~ pin 2
     signal vin ~ pin 1
     power = new Power
