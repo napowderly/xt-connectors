@@ -1,4 +1,4 @@
-ato-version: ^0.2.0
+ato-version: ^0.3.0
 builds:
   xt30-male-right-angle:
     entry: xt-connnectors.ato:XT30_Male_Right_Angle
