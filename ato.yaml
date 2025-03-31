@@ -1,12 +1,10 @@
 ato-version: ^0.3.0
 builds:
   xt30-male-right-angle:
-    entry: xt-connnectors.ato:XT30_Male_Right_Angle
+    entry: xt-connectors.ato:XT30_Male_Right_Angle
   xt30-male-vertical:
     entry: xt-connectors.ato:XT30_Male_Vertical
   xt30-female-right-angle:
     entry: xt-connectors.ato:XT30_Female_Right_Angle
   xt-30-female-vertical:
     entry: xt-connectors.ato:XT30_Female_Vertical
-dependencies:
-- generics
