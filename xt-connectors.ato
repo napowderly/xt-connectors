@@ -49,3 +49,11 @@ component XT30_Female_Vertical:
     # component XT30UPB-F
     footprint = "CONN-TH_XT30UPB-F"
     lcsc_id = "C108769"
+
+
+module Test:
+    """Test module for XT30 connectors"""
+    XT30_Male_Right_Angle_Test = new XT30_Male_Right_Angle
+    XT30_Male_Vertical_Test = new XT30_Male_Vertical
+    XT30_Female_Right_Angle_Test = new XT30_Female_Right_Angle
+    XT30_Female_Vertical_Test = new XT30_Female_Vertical
